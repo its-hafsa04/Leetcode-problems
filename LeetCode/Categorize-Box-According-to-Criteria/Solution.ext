@@ -1,0 +1,7 @@
+Input: length = 1000, width = 35, height = 700, mass = 300
+Output: "Heavy"
+Explanation: 
+None of the dimensions of the box is greater or equal to 104. 
+Its volume = 24500000 <= 109. So it cannot be categorized as "Bulky".
+However mass >= 100, so the box is "Heavy".
+Since the box is not "Bulky" but "Heavy", we return "Heavy".
