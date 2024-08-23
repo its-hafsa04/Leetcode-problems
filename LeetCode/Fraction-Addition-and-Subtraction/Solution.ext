@@ -1,0 +1,37 @@
+class Solution {
+private:
+    int getDigit(string &expr,int &ind){
+        int num = 0;
+        while(ind < expr.size() && isdigit(expr[ind])){
+            num = num*10+(expr[ind]-'0');
+            ind++;
+        }
+        return num;
+    }
+public:
+    string fractionAddition(string expression) {
+        int numerator=0,denominator=1;
+        int sign = 1,n = expression.size(),ind = 0;
+
+        while(ind < n){
+            if(expression[ind] == '+' || expression[ind] == '-'){
+                sign = expression[ind] == '-' ? -1 : 1;
+                ind++;
+            }
+
+            int currNume = sign*getDigit(expression,ind);
+            ind++;
+            int currDemo = getDigit(expression,ind);
+
+            numerator = numerator*currDemo + denominator*currNume;
+            denominator = denominator*currDemo;
+
+            int gcdValue = gcd(abs(numerator),abs(denominator));
+
+            numerator = numerator/gcdValue;
+            denominator = denominator/gcdValue;
+        }
+
+        return to_string(numerator) + "/" + to_string(denominator); 
+    }
+};
