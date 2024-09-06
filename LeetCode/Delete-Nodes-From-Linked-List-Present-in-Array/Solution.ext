@@ -1,0 +1,8 @@
+if (hasN[curr->val]){ 
+    prev->next = curr->next;
+    tmp=curr;
+}
+else{
+    prev = prev->next;
+    tmp=NULL;
+}
