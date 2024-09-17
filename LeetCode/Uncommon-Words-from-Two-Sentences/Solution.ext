@@ -1,0 +1,12 @@
+void printFrequency(string str)
+{
+    map<string, int> m; // map to store frequencies of every unique word
+
+    stringstream s(str); // breaking the words
+
+    
+    string w; //stores single word
+
+    while (s >> w)  // read from stringstream
+        m[w]++;
+}
