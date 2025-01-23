@@ -2,7 +2,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/01/04/list1.jpg" style="width: 302px; height: 242px;" />
+<img alt="" src="https://assets.leetcode.com/uploads/2021/01/04/list1.jpg" style="width: 300px; height: 240px;" />
 <pre>
 <strong>Input:</strong> head = [1,1,2]
 <strong>Output:</strong> [1,2]
