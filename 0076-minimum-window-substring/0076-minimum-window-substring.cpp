@@ -18,7 +18,7 @@ public:
             t_freq[c]--;
             if (t_freq[c] >= 0) {
                 count++;
-            }
+            } 
         }
         right++;
         while (count == t.size()) {
