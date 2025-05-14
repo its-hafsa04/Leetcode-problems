@@ -2,7 +2,7 @@ class Solution {
 public:
     string minWindow(string s, string t) {
        if (s.empty() || t.empty()) {
-        return "";
+        return ""
     }
     unordered_map<char, int> t_freq;
     for (char c : t) {
