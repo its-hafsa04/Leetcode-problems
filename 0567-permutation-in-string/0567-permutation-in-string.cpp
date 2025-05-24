@@ -1,16 +1,21 @@
 class Solution {
 public:
-    bool checkInclusion(string s1, string s2) {
-        if(s1.size() > s2.size()) return false;
-        sort(s1.begin(), s1.end());  
-        do {
-            for(int i = 0; i <= s2.size() - s1.size(); i++) {
-                string sub = s2.substr(i, s1.size());
-                if(sub == s1) {
-                    return true;
-                }
+    bool checkInclusion(string s1, string s2) 
+    {
+        unordered_map<char, int>mp, mp2;
+        for(auto ch:s1) mp2[ch]++;
+        int i = 0, j = 0, k = s1.size(), n = s2.size();
+        while(j < n)
+        {
+            mp[s2[j++]]++;
+            if(j - i == k)
+            {
+                if(mp == mp2) return true;
+                mp[s2[i]]--;
+                if(mp[s2[i]] == 0) mp.erase(s2[i]);
+                i++;
             }
-        } while(next_permutation(s1.begin(), s1.end()));
-        return false;
+        }
+        return true;
     }
 };
