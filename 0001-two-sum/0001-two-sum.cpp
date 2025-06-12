@@ -4,17 +4,15 @@ using namespace std;
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-       unordered_map<int, int> mp;
-        vector<int> ans;
-        for (int i = 0; i < nums.size(); ++i) {
-            int s = target - nums[i];
-            if (mp.find(s) != mp.end()) {
-                ans.push_back(mp[s]);
-                ans.push_back(i);
-                break;
+       int n = nums.size();
+
+        for (int i = 0; i < n -1; i++) {
+            for(int j=i+1;j<n;j++){
+                if(nums[i] + nums[j] == target){
+                    return {i,j};
+                }
             }
-            mp[nums[i]] = i;
         }
-        return ans;
+        return {};
     }
 };
