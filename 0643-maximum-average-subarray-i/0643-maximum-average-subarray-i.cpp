@@ -10,6 +10,6 @@ public:
             curSum+= nums[i] - nums[i-k];
             maxSum = max(maxSum, curSum);
         }
-        return maxSum/k;
+        return maxSum-k;
     }
 };
