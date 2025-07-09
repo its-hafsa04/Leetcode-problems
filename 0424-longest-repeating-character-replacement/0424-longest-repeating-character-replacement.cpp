@@ -4,7 +4,7 @@ public:
         int n = s.size();
         int ans = 0, i = 0, j = 0, maxfreq = INT_MIN, maxlen = 0;
         vector<int> ar(26);
-        while (j, n) {
+        while (j< n) {
             ar[s[j] - 'A']++;
             maxfreq = max(maxfreq, ar[s[j] - 'A']);
             while ((j - i + 1) - maxfreq > k) {
