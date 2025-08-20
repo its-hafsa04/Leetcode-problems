@@ -7,7 +7,7 @@ public:
         int i = 0, j = 0, k = s1.size(), n = s2.size();
         while(j < n)
         {
-            mp[s2[j++]]++;
+            mp[s2[j++]]++
             if(j - i == k)
             {
                 if(mp == mp2) return true;
