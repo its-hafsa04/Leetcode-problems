@@ -1,12 +1,13 @@
-int[] nums = [...]; // Input array
-int val = ...; // Value to remove
-int[] expectedNums = [...]; // The expected answer with correct length.
-                            // It is sorted with no values equaling val.
-
-int k = removeElement(nums, val); // Calls your implementation
-
-assert k == expectedNums.length;
-sort(nums, 0, k); // Sort the first k elements of nums
-for (int i = 0; i < actualLength; i++) {
-    assert nums[i] == expectedNums[i];
-}
+1class Solution {
+2public:
+3    int removeElement(vector<int>& nums, int val) {
+4       int index=0;
+5       for(int i=0; i<nums.size(); i++){
+6        if(nums[i] != val){
+7            nums[index]=nums[i];
+8            index++;
+9        }
+10       } 
+11       return index;
+12    }
+13};
