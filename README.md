@@ -7,6 +7,7 @@
 | [0001-two-sum](https://github.com/its-hafsa04/Leetcode-problems/tree/main/0001-two-sum/) | Easy |
 | [0014-longest-common-prefix](https://github.com/its-hafsa04/Leetcode-problems/tree/main/0014-longest-common-prefix/) | Easy |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/its-hafsa04/Leetcode-problems/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [1732-find-the-highest-altitude](https://github.com/its-hafsa04/Leetcode-problems/tree/main/1732-find-the-highest-altitude/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -30,4 +31,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/its-hafsa04/Leetcode-problems/tree/main/0014-longest-common-prefix/) | Easy |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1732-find-the-highest-altitude](https://github.com/its-hafsa04/Leetcode-problems/tree/main/1732-find-the-highest-altitude/) | Easy |
 <!---LeetCode Topics End-->
