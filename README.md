@@ -23,10 +23,12 @@
 | ------- | ------- |
 | [0013-roman-to-integer](https://github.com/its-hafsa04/Leetcode-problems/tree/main/0013-roman-to-integer/) | Easy |
 | [0014-longest-common-prefix](https://github.com/its-hafsa04/Leetcode-problems/tree/main/0014-longest-common-prefix/) | Easy |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/its-hafsa04/Leetcode-problems/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/its-hafsa04/Leetcode-problems/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/its-hafsa04/Leetcode-problems/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -35,4 +37,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1732-find-the-highest-altitude](https://github.com/its-hafsa04/Leetcode-problems/tree/main/1732-find-the-highest-altitude/) | Easy |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/its-hafsa04/Leetcode-problems/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 <!---LeetCode Topics End-->
